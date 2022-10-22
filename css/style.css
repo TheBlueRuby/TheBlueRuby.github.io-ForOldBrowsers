@@ -1,4 +1,4 @@
-html {    
+html {
     min-width: 100vw;
     min-height: 100vh;
 }
@@ -71,16 +71,16 @@ a:hover {
     margin: auto;
     padding: 5px;
     overflow: hidden;
-    overflow-x: auto;  
+    overflow-x: auto;
     background-color: #00b;
     max-width: 90vw;
     height: 50px;
     justify-content: left;
     border-radius: 4px;
-    
+
 }
 
-.custom-navbar {
+.navbar-nav {
     list-style-type: none;
     white-space: nowrap;
     margin: auto;
@@ -94,7 +94,12 @@ a:hover {
     border-radius: 4px;
 }
 
-.navbar-item {
+.nav-item {
+    display: inline-block;
+    height: 45px;
+}
+
+.navbar-brand {
     display: inline;
 }
 
@@ -105,14 +110,27 @@ a:hover {
     padding: 10px 16px;
     text-decoration: none;
     min-height: 45px;
-    margin-top: 5px;
 }
 
 .navbar-link:hover {
     color: #000;
-    background-color: #0ff;
     text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #0ff;
     border-radius: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-link-container {
+    width: 85vw;
 }
 
 /*Accordion CSS has been moved to css/accordion.css */
