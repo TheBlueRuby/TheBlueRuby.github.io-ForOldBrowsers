@@ -70,11 +70,10 @@ a:hover {
     white-space: nowrap;
     margin: auto;
     padding: 5px;
-    overflow: hidden;
-    overflow-x: auto;
+    overflow: none;
     background-color: #00b;
     max-width: 90vw;
-    height: 50px;
+    height: 45px;
     justify-content: left;
     border-radius: 4px;
 
@@ -85,11 +84,10 @@ a:hover {
     white-space: nowrap;
     margin: auto;
     padding: 0;
-    overflow: hidden;
-    overflow-x: auto;
+    overflow: auto;
     background-color: #00b;
     max-width: 90vw;
-    max-height: 50px;
+    max-height: 45px;
     justify-content: left;
     border-radius: 4px;
 }
@@ -101,6 +99,7 @@ a:hover {
 
 .navbar-brand {
     display: inline;
+    height: 45px;
 }
 
 .navbar-link {
@@ -109,7 +108,7 @@ a:hover {
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
-    min-height: 45px;
+    min-height: 25px;
 }
 
 .navbar-link:hover {
