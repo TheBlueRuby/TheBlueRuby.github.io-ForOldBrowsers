@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="icon" type="image/png" href="resources/favicon.png" />
+        <title>TheBlueRuby - Main Page</title>
+
+        <meta name="description" content="A small website by TheBlueRuby" />
+
+        <meta content="TheBlueRuby's Github Page - Main" property="og:title" />
+        <meta property="og:type" content="website" />
+        <meta content="A small website by TheBlueRuby" property="og:description" />
+        <meta content="https://theblueruby.github.io/" property="og:url" />
+        <meta content="https://theblueruby.github.io/resources/banner.png" property="og:image" />
+        <meta content="#00BBFF" name="theme-color" />
+
+        <link href="feed.xml" type="application/atom+xml" rel="alternate" title="TheBlueRuby's Post Atom feed" />
+    </head>
+
+    <body>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/accordion.css" />
+
+        <h1 class="title">TheBlueRuby's Github Page</h1>
+        <br />
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="resources/favicon.png" width="45" height="45" alt="Go to Homepage" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="navbar-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="navbar-link" href="./art/">Art</a></li>
+                        <li class="nav-item"><a class="navbar-link" href="posts/">Posts</a></li>
+                        <li class="nav-item"><a class="navbar-link" href="./projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="navbar-link" href="./aboutme.html">About Me</a></li>
+                        <li class="nav-item"><a class="navbar-link" href="https://github.com/TheBlueRuby/theblueruby.github.io/">Source</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br />
+
+        <!--Accordions-->
+        <div class="accordion" id="main-page-accordions">
+            <div class="accordion-item">
+                <h1 class="accordion-header" id="accordion-heading-1">About Me</h1>
+                <p>Hi! I'm TheBlueRuby!</p>
+                <p>I am currently learning Rust, Java and JS.</p>
+                <p>I have made a group with my friends called <a href="http://miteprod.vercel.app/">Mite Productions</a>, and we are learning game development</p>
+                <p>For more, see my <a href="http://theblueruby.github.io/aboutme.html">About Me page</a>.</p>
+            </div>
+            <br />
+
+            <div class="accordion-item">
+                <h1 class="accordion-header" id="accordion-heading-2">Current Projects</h1>
+
+                <p>I am currently working on Metroidvania called Yet Another Metroidvania.</p>
+                <p>You can see my progress on my <a href="https://github.com/TheBlueRuby/">github page.</a></p>
+                <p>For more, see my <a href="http://theblueruby.github.io/projects.html">projects page.</a></p>
+            </div>
+            <br />
+
+            <div class="accordion-item">
+                <h1 class="accordion-header" id="accordion-heading-3">Socials</h1>
+                <ul>
+                    <li>
+                        <i class="bi bi-github"></i>
+                        <a href="http://github.com/TheBlueRuby/">Github</a>
+                    </li>
+                    <li>
+                        <svg class="social-namemc" style="background-color: black" viewBox="-8 -8 16 16" shape-rendering="crispEdges" class="align-top" width="20" height="20">
+                            <path style="fill: white" d="M-5-5L+3-5L+3-3L+5-3L+5+5L+3+5L+3-3L-3-3L-3+5L-5+5"></path>
+                        </svg>
+                        <a href="http://namemc.com/DaBlueRuby.1/">Minecraft (NameMC)</a>
+                    </li>
+                    <li>
+                        <img src="https://www.sudomemo.net/theatre_assets/images/Sudomemo_Sticker_Fox_Outline.svg" width="16px" />
+                        <a href="https://www.sudomemo.net/user/9C6C93C08A7669D1@DSi">Flipnote (Sudomemo)</a>
+                    </li>
+                    <li>
+                        <img src="https://gallery.kaeru.world/images/logo/kaeru/kaeru_fill_transparent.svg" width="16px" />
+                        <a href="https://gallery.kaeru.world/users/9ca459c3223b488c94fe5320533d9ebb">Flipnote 3D (Kaeru Gallery)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br />
+    </body>
+</html>
