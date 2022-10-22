@@ -49,21 +49,6 @@ a:hover {
     color: #0c0;
 }
 
-.darkmode-toggle {
-    max-width: 90vw;
-}
-
-.darkmode-label {
-    display: inline;
-    font-weight: normal;
-    max-width: 90vw;
-    cursor: default;
-}
-
-.darkmode-checkbox {
-    cursor: pointer;
-}
-
 /*Navbar*/
 
 .navbar {
