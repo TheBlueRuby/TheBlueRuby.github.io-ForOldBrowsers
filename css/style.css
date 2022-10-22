@@ -70,7 +70,7 @@ a:hover {
     white-space: nowrap;
     margin: auto;
     padding: 5px;
-    overflow: none;
+    overflow: auto;
     background-color: #00b;
     max-width: 90vw;
     height: 45px;
@@ -84,7 +84,7 @@ a:hover {
     white-space: nowrap;
     margin: auto;
     padding: 0;
-    overflow: auto;
+    overflow: none;
     background-color: #00b;
     max-width: 90vw;
     max-height: 45px;
