@@ -6,5 +6,5 @@ This should also work on IE
 
 Originally the OldCSS branch of the original repo, but GitHub Pages doesn't like publishing from 2 branches of the same repo at the same time.
 
-Visit this site at <http://theblueruby.github.io/foroldbrowsers/>
+Visit this site at LINK PENDING  
 Visit the original site at <http://theblueruby.github.io/>
