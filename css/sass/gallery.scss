@@ -1,10 +1,8 @@
-@import "../style.css";
-
 /*Gallery*/
 div {
     &.gallery-container {
         display: flex;
-        flex-basis: var(--max-width);
+        flex-basis: 90vw;
         flex-wrap: wrap;
         justify-content: flex-start;
         
@@ -12,7 +10,7 @@ div {
         padding: 1%;
         overflow-x: hidden;
         overflow-y: auto;
-        max-width: var(--max-width);
+        max-width: 90vw;
         box-sizing: content-box;
     }
 
@@ -23,7 +21,7 @@ div {
         min-width: 180px;
 
         &:hover {
-            background-color: var(--bg-color-highlight);
+            background-color: #246;
             border-radius: 10px;
         }
 
